@@ -102,7 +102,7 @@ return packer.startup(function(use)
   use { "ravenxrz/DAPInstall.nvim", commit = "8798b4c36d33723e7bba6ed6e2c202f84bb300de" }
   -- Markdown
  
-  use { "iamcco/markdown-preview.nvim", run="cd app && touch robert"}
+  use { "iamcco/markdown-preview.nvim", run=function() vim.fn['mkdp#util#install']() end}
 
 
 
