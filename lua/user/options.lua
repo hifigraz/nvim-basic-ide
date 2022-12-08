@@ -43,3 +43,4 @@ vim.opt.linebreak = true
 
 vim.g.mkdp_auto_start = 1
 vim.g.mkdp_auto_close = 1
+vim.g.languagetool_server_command = "/usr/bin/languagetool --http"
