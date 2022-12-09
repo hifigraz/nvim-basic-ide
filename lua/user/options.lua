@@ -41,6 +41,4 @@ vim.opt.iskeyword:append("-")                   -- treats words with `-` as sing
 vim.opt.formatoptions:remove({ "c", "r", "o" }) -- This is a sequence of letters which describes how automatic formatting is to be done
 vim.opt.linebreak = true
 
-vim.g.mkdp_auto_start = 1
-vim.g.mkdp_auto_close = 1
 vim.g.languagetool_server_command = "/usr/bin/languagetool --http"
