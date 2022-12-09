@@ -42,3 +42,4 @@ vim.opt.formatoptions:remove({ "c", "r", "o" }) -- This is a sequence of letters
 vim.opt.linebreak = true
 
 vim.g.languagetool_server_command = "/usr/bin/languagetool --http"
+vim.g.python3_host_prog = "/usr/bin/python"
