@@ -13,12 +13,11 @@ null_ls.setup {
   debug = false,
   sources = {
     formatting.prettier.with {
-      extra_filetypes = { "toml" },
+      extra_filetypes = { "toml"},
       extra_args = { "--no-semi", "--single-quote", "--jsx-single-quote" },
     },
     formatting.black.with { extra_args = { "--fast" } },
     formatting.stylua,
-    formatting.google_java_format,
-    diagnostics.flake8,
+    diagnostics.flake8.with { Command="flake8", extra_args = { "--config", "/home/robert/Development/htl/tools/ExamEnv/teacher/api/setup.cfg" } },
   },
 }

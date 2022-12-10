@@ -13,9 +13,16 @@ if not dap_install_status_ok then
 	return
 end
 
+local dap_python_status_ok, dap_python = pcall(require, 'dap-python')
+if not dap_python_status_ok then
+  return
+end
+
 dap_install.setup({})
 
 dap_install.config("python", {})
+
+dap_python.setup('/usr/bin/python')
 -- add other configs here
 
 dapui.setup({
