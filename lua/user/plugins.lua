@@ -62,6 +62,7 @@ return packer.startup(function(use)
 
   -- Colorschemes
   use { "lunarvim/darkplus.nvim", commit = "13ef9daad28d3cf6c5e793acfc16ddbf456e1c83" }
+  use { "fcpg/vim-fahrenheit" }
   use { "arcticicestudio/nord-vim" }
 
   -- cmp plugins
