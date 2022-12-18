@@ -110,6 +110,8 @@ return packer.startup(function(use)
 
   use {"vigoux/LanguageTool.nvim" }
 
+  -- Virtual Environment
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
