@@ -18,6 +18,6 @@ null_ls.setup {
     },
     formatting.black.with { extra_args = { "--fast" } },
     formatting.stylua,
-    diagnostics.flake8.with { Command="flake8", extra_args = { "--config", "/home/robert/Development/htl/tools/ExamEnv/teacher/api/setup.cfg" } },
+    diagnostics.flake8.with { Command="flake8", extra_args = { "--config", "setup.cfg" } },
   },
 }
