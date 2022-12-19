@@ -1,4 +1,5 @@
 local servers = {
+  "volar",
 	"sumneko_lua",
 	"cssls",
 	"html",
